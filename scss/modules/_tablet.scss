@@ -1,0 +1,33 @@
+.hero {
+    &__up {
+        flex-wrap: nowrap;
+    }
+
+    &__down {
+        display: none;
+    }
+
+    &__paragraph {
+        width: 360px;
+    }
+
+    &__text {
+        width: 50vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    &__taco {
+        width: 48vw;
+        @include backgroundImg('../img/taco.png');
+        @include contentCenter;
+        color: white;
+        font-size: 30px;
+        letter-spacing: 2px;
+
+        p {
+            font-family: "Bebas Neue";
+            margin: 0;
+        }
+    }
+}

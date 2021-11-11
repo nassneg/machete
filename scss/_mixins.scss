@@ -1,0 +1,22 @@
+@mixin backgroundImg ($url) {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url($url);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@mixin backgroundImgLight ($url) {
+    background: url($url);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@mixin contentCenter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: "Bebas Neue";
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Gamos';
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: 'Futura';
+}
+
+a {
+    color: white;
+}
+
+.container {
+    height: 100%;
+    margin: 0;
+}
+
+.title {
+    font-size: 41.41px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    background-color: #00ac1e;
+    border: 2px solid #00ac1e;
+    padding: 12px 38px;
+    font-size: 20px;
+    font-weight: 400;
+    color: $dark-bg;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        background-color: transparent;
+        color: white;
+    }
+}
